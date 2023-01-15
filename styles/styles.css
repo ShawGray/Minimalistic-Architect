@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'michroma-reg';
+    src: url('../fonts/Michroma-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0%;
+    font-family: sans-serif;
+    background-color: #f4f2f0;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1.7fr 1.2fr 1fr;
+    width: 100%;
+}
+
+.left-col-top {
+    display: flex;
+    margin: 5% 0% 0% 10%;
+    border-bottom: 2px solid gray;
+    margin-bottom: -2px;
+}
+
+.navbar {
+    display: flex;
+    margin: 1% 0% 1% 1%;
+    justify-content: space-evenly;
+    width: -moz-available;
+}
+
+.logo {
+    display: flex;
+    width: 70px;
+    height: 60px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -2px;
+}
+
+.logo img {
+    margin: 2% 2%;
+    width: 50px;
+}
+
+.left-col a {
+    text-decoration: none;
+    color: black;
+    margin: 2%;
+}
+
+.left-col-hd {
+    margin: 10% 20%;
+}
+
+.left-col-heading {
+    font-size: 8vw;
+    font-family: michroma-reg;
+    margin: 0% auto;
+    padding-right: 26%;
+    line-height: 1.1;
+    text-align: right;
+    letter-spacing: 30px;
+}
+
+.left-col-info-div {
+    padding: 0% 18%;
+    font-size: 1vw;
+}
+
+.left-col-info-div p {
+    line-height: 2;
+}
+
+.mid-col img {
+    width: 100%;
+}
+
+.mid-col {
+    position: relative;
+}
+
+.mid-col-info-div {
+    padding: 6%;
+    background: #e2e2e2;
+    padding-top: 650px;
+    position: absolute;
+    top: 400px;
+    left: -35px;
+    width: 90%;
+    z-index: -1;
+}
+
+.view-portfolio {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.view-portfolio a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 3%;
+    width: 40%;
+}
+
+.mid-col-info {
+    font-size: 1vw;
+    margin-top: 7%;
+    line-height: 2;
+}
+
+img.r-arrow {
+    width: 30px;
+    padding-left: 10%;
+}
+
+.right-col {
+    padding: 10% 16% 16%;
+}
+
+.hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hamburger img {
+    width: 30px;
+}
+
+.radios {
+    margin-top: 20%;
+}
+
+.r-col-head {
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-top: 20%;
+}
+
+.sun-logo {
+    width: 14px;
+}
+
+.form-el {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-el p {
+    margin: 4% 0%;
+    font-size: 19px;
+}
+
+.r-col-descrip {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 15%;
+}
+
+.read-more {
+    margin-top: 15%;
+    font-weight: 600;
+}
+
+.read-more a {
+    color: black;
+}
+
+.logo-two {
+    padding: 55% 0% 0% 30%;
+}
+
+.left-col-hd-two {
+    display: flex;
+}
+
+.ver-txt {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 30px;
+    font-family: michroma-reg;
+    letter-spacing: 25px;
+    font-weight: 900;
+    align-self: flex-end;
+    padding-top: 2%;
+    margin-left: 0%;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20%;    
+}
